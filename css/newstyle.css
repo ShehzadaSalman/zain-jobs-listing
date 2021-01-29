@@ -1,0 +1,121 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#pp-navbar{
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+}
+#pp-navbar .nav-item.dropdown{ background-color: #fff; border-radius: 50px; color: #000;}
+#pp-navbar .nav-item a{ 
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; font-size: 13px; padding: 10px 30px; font-weight: 500;}
+    #pp-navbar .nav-item.dropdown{ background-color: #fff;  padding: 0px 0px; border-radius: 50px; color: #000;}
+    #pp-navbar .nav-item.dropdown a{ color:  #196BD5; padding: 10px 20px;}
+.registration-banner{
+padding-top: 0px;    
+background-image: url('/images/PPImages/authbanner.png');
+min-height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 20px;
+}
+.introduction-caption p{ color: #fff; font-size: 14px; font-weight: 400;}
+.introduction-caption .who{ color: white; font-size: 57px; margin-right: 20px;}
+.introduction-caption .are-we{ color: white; font-weight: bold; font-size: 30px;}
+.form-register-container{ padding: 35px 30px; border: solid 5px #fff; border-radius: 55px;}
+.form-register-container .auth-heading{ color: #fff; font-family: 'Montserrat', sans-serif;  }
+.form-register-container .auth-paragraph{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-register-container .registration-input{
+    border: none;
+    width: 100%;
+    border-radius: 25px;
+background: #fff;
+padding: 15px 20px;
+margin-top: 7px;
+margin-bottom: 7px;
+font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+}
+.form-register-container .registration-banner::placeholder{ color: #AAAAAA; font-weight: bold; opacity: 0.5;}
+.form-register-container .already-account{ font-size: 14px; color: #fff;}
+.form-register-container .accept-policy{ color: white; font-size: 14px; }
+.form-register-container .accept-policy span{ text-decoration: underline; font-weight: bold;  }
+.form-register-container .already-account span{ font-weight: bold; }
+.form-register-container .submit-btn{ border: none; cursor: pointer;
+    width: 100%; border-radius: 25px;
+background: #fff; color: #196BD5;
+padding: 12px 20px;font-weight: bold; margin-top: 7px;
+margin-bottom: 7px; font-size: 14px; font-family: 'Montserrat', sans-serif; }
+ .form-register-container .submit-btn:hover{ color: #fff; background-color: #196BD5; }
+.pp-button-one.active{
+    background-color: transparent;
+    border-radius: 26px;
+    border: solid 2px #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    height: 50px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    color: #fff !important;
+    justify-content: center;
+    padding: 0px 19px;
+    line-height: 1;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+.pp-button-one.active:hover{ background-color: #fff; color: #196BD5 !important; }
+.pp-button-one{
+    background-color: #fff;
+    border-radius: 26px;
+    border: solid 2px #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    color: #196BD5 !important;
+    justify-content: center;
+    padding: 0px 19px;
+    line-height: 1;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+.pp-button-one:hover{
+    background-color:transparent;
+    color: white !important;
+     border-color: white;}
+
+/* footer styling starts here */
+.bg-grey{ background-color: #F5F5F5;}     
+.pp-footer .related-pages-links{
+    margin-top: 50px; margin-bottom: 50px;}
+    .pp-footer .related-pages-links li{ padding-top: 5px; padding-bottom: 5px; font-size: 14px; color: #7D7D7D; }
+
+.pp-footer .policy-pages a{ font-size: 14px; color: #000; display: inline-block; cursor: pointer; }
+.pp-footer .all-rights{ display: block; font-size: 16px; color: #404040; }
+.pp-footer .language .dropdown a{ color: #7D7D7D; font-size: 12px; }
+.pp-footer .language .dropdown a span{ color: #000000;}
+.pp-footer .social-media-circles a{
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    background-color: #196BD5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.pp-footer .news-letter .heading{ font-size: 18px; color: #000; font-weight: 500;}
+.pp-footer .news-letter .paragraph{font-size: 14px; color: #7D7D7D;}
+#subscribe-btn{ background-color: #196BD5; color: #fff; border-bottom-right-radius: 20px; border-top-right-radius: 20px; }
+.pp-footer .community-jobs span{ color: #196BD5; font-size: 20px; font-weight: bold;}
+.pp-footer .community-jobs p{ color: #000; font-size: 12px; font-weight: bold; display: inline-block;}
