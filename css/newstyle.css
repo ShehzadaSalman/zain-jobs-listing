@@ -119,3 +119,53 @@ margin-bottom: 7px; font-size: 14px; font-family: 'Montserrat', sans-serif; }
 #subscribe-btn{ background-color: #196BD5; color: #fff; border-bottom-right-radius: 20px; border-top-right-radius: 20px; }
 .pp-footer .community-jobs span{ color: #196BD5; font-size: 20px; font-weight: bold;}
 .pp-footer .community-jobs p{ color: #000; font-size: 12px; font-weight: bold; display: inline-block;}
+
+/* listing page styling starts here */
+.listing-banner{
+padding-top: 20px;    
+background-image: url('/images/PPImages/listing-banner.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 0px;
+}
+
+.listing-banner h1{
+    color: #fff;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 2;
+
+}
+.listing-banner .listing-search-container{
+    position: relative;
+    min-height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: -12px;
+background-color: #fff;
+box-shadow: 6.84px 19.86px 51px rgba(0, 0, 0, 0.17);
+}
+.listing-banner .listing-search-field{
+    border-radius: 28px;
+background: transparent;
+border: 2px solid #196bd5;
+border-left: none;
+}
+.listing-banner .listing-search-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.listing-banner .listing-search-container .search-btn{
+    color: #fff;
+    background-color:#196bd5;
+    border: solid 2px #196BD5;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.listing-banner .listing-search-container .search-btn:hover{
+    background-color: transparent;
+    color:#196BD5; cursor: pointer;}
